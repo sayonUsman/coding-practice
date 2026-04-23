@@ -11,7 +11,7 @@ int main(){
         scanf("%d", &a[i]);
     }
 
-    for(int i=0, j=size-1; j>=0; i++, j--){
+    for(int i=0, j=size-1; i<j; i++, j--){
         if(a[i] != a[j]){
             isPalindrome=0;
             printf("NO");
